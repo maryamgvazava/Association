@@ -623,6 +623,9 @@ box-sizing: border-box;
           .unorder, .otherserv{
             padding: 18px;
           }
+
+          .wave3{
+              display:none;
       }
 
 
