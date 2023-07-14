@@ -296,7 +296,7 @@ h1{
 .session{
     background: #262262 url("images/training4.jpg") ;
     background-size: cover;
-    padding-left: 0px !important;
+    padding: 0px !important;
     display: flex;
     flex-wrap: wrap;
     height: 473px;
