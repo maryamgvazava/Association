@@ -2,6 +2,7 @@
 
 .row{
     display: flex;
+     flex-wrap: wrap;
 }
 
 .line1, .line2{
@@ -52,6 +53,30 @@ width: 200px;
 justify-content: center;
 margin-top: 70px !important;
 }
+
+
+@media (max-width:900px){
+    .sec17, .sec16{
+        padding: 18px;
+   
+    }
+
+    input{
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .regform{
     font-size: 30px;
