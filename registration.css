@@ -62,11 +62,11 @@ margin-top: 70px !important;
 
 
 @media (max-width:900px){
-    .sec17, .sec16{
-        padding: 18px;
-   
+    .sec17{
+        padding: 18px !important;
     }
-
+    .sec16{
+        padding:18px !important;
     input{
         display: block;
     }
