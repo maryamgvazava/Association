@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    overflow-x:hidden;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sec13{
+    padding: 42px 183px;
+}
+
+.eventweek, .eventweek1{
+margin-top: 40px;
+color: #262262;
+}
+
+.week2024, .week2023{
+    text-transform: uppercase;
+}
+
+.sec14{
+    display: flex;
+    justify-content: space-between;
+    padding: 42px 183px;
+    flex-wrap: wrap;
+}
+
+.sec15{
+    padding: 42px 183px;
+}
+
+.trms1{
+    margin: 0 !important;
+    width: 100%;
+}
+
+.contactimg{
+    width: 60px;
+    height: 60px;
+}
+
+.txt1{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.conditions1{
+    display: flex;
+    justify-content: space-between !important;    
+    box-sizing: border-box;
+    }
+    
+.files1{
+    max-width: 350px;
+    min-height: 80px;
+    display: flex;
+    box-sizing: border-box;
+    background-color: #F3F3F4;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.files1:hover{
+border: solid #0F75BC 1px;
+}
+
+
+
+@media (max-width:650px){
+    .sec14{
+        padding: 18px;
+    }
+
+    .sec13{
+        padding: 18px;
+    }
+
+    .sec15{
+        padding: 18px;
+    }
+}
