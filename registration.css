@@ -1,8 +1,15 @@
+body{
+    margin: 0;
+    overflow-x:hidden;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 .row{
     display: flex;
-     flex-wrap: wrap;
+    flex-wrap: wrap;
+
 }
 
 .line1, .line2{
@@ -25,6 +32,10 @@
     border-radius: 12px;
     background-color: rgb(239, 236, 236);
     border: solid rgb(208, 202, 202) 0.1rem ;
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 90%; */
+    box-sizing: border-box !important;
 }
 
 .inp1{
@@ -35,11 +46,12 @@
 
 .sec16, .sec17{
     padding: 42px 183px;
+    width: 100%;
 }
 
 .sec17{
     background-color: aliceblue;
-    min-width: 80vh !important;
+    /* min-width: 80vh !important; */
 }
 
 .sec16{
@@ -60,15 +72,33 @@ margin-top: 70px !important;
 }
 
 
-
 @media (max-width:900px){
     .sec17{
-        padding: 18px !important;
-    }
-    .sec16{
-        padding:18px !important;
-    input{
-        display: block;
+        padding: 0 !important;
+        box-sizing: border-box !important;
+   
     }
 
+    .sec16{
+        padding:10px!important;
+        box-sizing: border-box !important;
+     
+    }
+
+    .regform{
+        font-size: 15px;
+    }
+
+    .lbl{
+        font-size:10px
+    }
+
+    .inp{
+        font-size: 10px;
+        padding-left: 2px;
+        max-width: 200px;
+    }
 }
+
+
+
