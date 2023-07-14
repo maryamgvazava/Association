@@ -294,7 +294,7 @@ h1{
 }
 
 .session{
-    background: #262262 url("images/training4.jpg") ;
+    background: url("images/training4.jpg") ;
     background-size: 100% auto;
     background-repeqt:no-repeat;
     padding: 0px !important;
