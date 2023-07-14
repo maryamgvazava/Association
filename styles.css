@@ -303,6 +303,11 @@ h1{
     height: 473px;
   }
 
+ .row1{
+      width: 100%;
+    }
+
+
   .sec4, .sec444{
     display: flex;
     flex-wrap: wrap;
