@@ -54,6 +54,12 @@ justify-content: center;
 margin-top: 70px !important;
 }
 
+.regform{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
 
 @media (max-width:900px){
     .sec17, .sec16{
@@ -65,20 +71,4 @@ margin-top: 70px !important;
         display: block;
     }
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.regform{
-    font-size: 30px;
-    font-weight: 700;
 }
